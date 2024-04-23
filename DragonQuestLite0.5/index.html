@@ -1,0 +1,47 @@
+<!-- https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-javascript-by-building-a-role-playing-game -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Quest Lite</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="game">
+        <div id ="stats">
+            <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+            <span class="stat"><img src="./img/hero.png" alt="Hero Icon"><span id="img"></span></span>
+        </div>
+        
+        <div id ="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+            <span class="stat"><img id="monsterImg" src="" alt="Monster Image"></span>
+        </div>
+        <div id ="text">
+            Welcome to Dragon Quest Lite. You must defeat the Draconarius that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons below. Small practice project by Guillermo Bonnin.
+        </div>
+        <div id ="controls">
+            <button id="button1">
+                Go to store.
+            </button>
+            <button id="button2">
+                Go to cave.
+            </button>
+            <button id="button3">
+                Fight Draconarius.
+            </button>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

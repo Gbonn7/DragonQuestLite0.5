@@ -1,0 +1,90 @@
+@font-face {
+    font-family: dq;
+    src: url(../font/dragonquestds.otf);
+}
+*{
+    font-family: dq;
+}
+
+body{
+    background-color: #0a0a23;
+    
+}
+#text{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    grid-area: text;
+}
+#game{
+    width: 90%;
+    max-height: 90%;
+    background-color: #0a0a23;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    "stats"
+    "monsterStats"
+    "text"
+    "controls";
+    /*grid-template-rows: 35% 45% 95% 60%;*/
+    grid-template-rows: 75px 75px 160px 75px;
+    gap: 30px
+}
+#stats{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0a0a23;
+    padding: 5px;
+    grid-area: stats;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#monsterStats{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+    padding: 5px;
+    display: none;
+    grid-area: monsterStats;
+}
+#controls{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #0a0a23;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    grid-area: controls;
+    
+}
+
+.stat{
+    padding-right: 10px;
+}
+button{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0a0a23;
+    /*background-image: linear-gradient(#fecc4c, #ffac33);*/
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+}
+/*button{
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+}*/
